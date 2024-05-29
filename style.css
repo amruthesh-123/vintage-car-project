@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+}
+.vintage-header{
+    height: 90vh;
+    background-image: url('jakob-owens-U_2kP7bkFKw-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    filter: saturate(100%);
+    max-width: 100%;
+    background-position: 50% 50%;
+     position: relative;
+
+ 
+}
+.vintage-header div{
+    margin-left: 35%;
+    position: absolute;
+    top: 40%;
+
+}
+
+.vintage-nav{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+    
+}
+
+.vintage-nav a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    margin: 0 5px;
+}
+
+.vintage-nav a:hover{
+    color: rgba(255, 255, 255, 0.6);
+}
+.vintage-header h1{
+    color: white;
+    text-align: center;
+    /* margin-top: 200px; */
+    font-weight: 800;
+    font-size: 100px;
+}
+.vintage-header p{
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+/* header close */
+
+
+.chat{
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    box-shadow: 0 0 5px rgba(0,0, 0,0.2);
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+    font-size: 28px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* first section */
+
+.services-section{
+    background-color: #333;
+    color: white;
+}
+
+.service-header h1{
+    /* text-align: center; */
+    padding: 20px 20px 0;
+    /* border-bottom: 2px solid black; */
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.service-header{
+    text-align: center;
+}
+hr{
+    display: inline-block;
+    color: rgb(248, 243, 243);
+    width: 5%;
+    margin-bottom: 40px; 
+}
+.service-icon {
+    font-size: 80px;
+    border: 2px solid white;
+    padding: 30px;
+    border-radius: 10000px;
+    margin-bottom: 10px;
+    
+}
+.services{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.services p{
+    margin: 10px 0;
+}
+
+/* section 2 */
+
+.work{
+    color: white;
+    background-image: url(gradient-grainy-texture_23-2148976749.avif);
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
+.work h1{
+    padding: 20px 20px 0;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.work-hr{
+    display: inline-block;
+    color: black;
+    width: 10%;
+    /* margin-bottom: 40px;  */
+}
+.work-flex {
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: center;
+}
+
+.flex-item{
+    height: 350px;
+    width: 350px; 
+    background-repeat: no-repeat; 
+
+}
+
+.item-cnt{
+     padding-top: 100px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+.cnt-icon{
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-item:hover .item-cnt{
+    display: block;
+}
+
+
+.img1{
+    background-image: url(pexels-mike-bird-190537.jpg);
+   
+}
+.img2{
+    background-image:url(istockphoto-521267445-612x612.jpg) ;
+   
+}
+
+.img3{
+    background-image: url(rendered-1.jpg);
+    
+}
+.img4{
+    background-image: url(istockphoto-837009918-612x612.jpg);
+    
+}
+
+.img5{
+    background-image: url(istockphoto-1427716689-612x612.jpg);
+    
+}
+
+.img6{
+    background-image: url(pexels-photo-712618.jpeg);
+   
+}
+.work-head p{
+    margin: 15px 0;
+}
+
+
+
+
+/* section 3 */
+.aboutsec{
+    background-image: url(360_F_495286577_rpsT2Shmr6g81hOhGXALhxWOfx1vOQBa.jpg);
+    padding: 10px;
+
+}
+.about{
+    margin: auto;
+    color: black;
+    background-color: white;
+    text-align: center;
+    margin-bottom: 40px;
+    width: 50%;
+    padding: 30px;
+    margin-top: 60px;
+}
+
+.about h1{
+    padding: 20px 20px 0;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.about-hr{
+    display: inline-block;
+    color: black;
+    width: 10%;
+    /* margin-bottom: 40px;  */
+}
+.about p{
+  text-align: center;
+}
+
+/* section4 */
+
+.findsec {
+    background-image: url(blurred-lights-background-wallpaper-design-vector-9706793.jpg);
+    padding: 10px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+
+}
+    
+
+.find{
+    margin: auto;
+    color: black;
+    background-color: white;
+    text-align: center;
+    margin-bottom: 40px;
+    width: 80%;
+    padding: 30px;
+    margin-top: 40px;
+}
+
+.find h1{
+    padding: 20px 20px 0;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.find-hr{
+    display: inline-block;
+    color: black;
+    width: 10%;
+}
+
+.find-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 65px;
+}
+.find-form{
+    margin-top: 55px;
+    text-align: left;
+}
+
+.find-form input{
+    width: 100%;
+    padding: 4px;
+    
+}
+.find-form textarea{
+    width: 267px;
+    height: 106px;
+    resize: vertical;
+}
+.btn{
+    background-color: darkblue;
+    color: white;
+    outline: none;
+    border: 1px solid darkblue;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 100%;
+}
+footer{
+    text-align: center;
+    background-color: rgb(6, 4, 71);
+    color: white;
+    padding: 25px 0;
+}
+
+.social-icons{
+    margin-bottom: 25px;
+}
+
+.social-icons i{
+    margin-right: 8px;
+    font-size: 25px;
+}
+
+.fa-brands{
+    color: white;
+    border: 2px solid white;
+    padding: 14px 17px;
+    border-radius: 1000px;
+
+}
